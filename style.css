@@ -1,0 +1,104 @@
+body{
+  background-color: antiquewhite;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  font-family: 'Ubuntu', sans-serif;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.brand img{
+  width: 44px;
+  padding: 0 8px;
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.container{
+  min-height: 80vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  width: 70%;
+  margin: 23px auto;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: url(aj.jpg);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: normal;
+}
+.songItem img{
+  width: 50px;
+  border-radius: 30px;
+  margin: 0 12px;
+}
+.timeStamp{
+  margin: 0 23px;
+  display: flex;
+  align-items: center;
+
+}
+.timeStamp i{
+  cursor: pointer;
+
+}
+.songItem{
+   height: 50px; 
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  margin: 12px 0;
+  justify-content: space-between; 
+}
+.bottom{
+  background-color: black;
+  height: 80px;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+
+}
+.icons{
+  margin-top: 14px;
+}
+.icons i{
+  cursor: pointer;
+}
+#myProgressbar{
+  width: 80vw;
+  cursor: pointer;
+}
+.songItemcontainer{
+  margin-top: 74px;
+}
+.gif{
+  position: absolute;
+  left: 10vw;
+  display: flex;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.gif img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
